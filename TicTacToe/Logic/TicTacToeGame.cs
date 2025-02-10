@@ -56,34 +56,6 @@ namespace TicTacToe.Logic
         // TODO: Implement winner calculation
         private Player? GetWinner()
         {
-            //// Check rows
-            //for (int i = 0; i < 3; i++)
-            //{
-            //    if (_gameBoard[i, 0, 0] == _gameBoard[i, 1, 0] && _gameBoard[i, 1, 0] == _gameBoard[i, 2, 0])
-            //    {
-            //        return _players.FirstOrDefault(p => p.Symbol == _gameBoard[i, 0, 0]);
-            //    }
-            //}
-
-            //// Check columns
-            //for (int i = 0; i < 3; i++)
-            //{
-            //    if (_gameBoard[0, i, 0] == _gameBoard[1, i, 0] && _gameBoard[1, i, 0] == _gameBoard[2, i, 0])
-            //    {
-            //        return _players.FirstOrDefault(p => p.Symbol == _gameBoard[0, i, 0]);
-            //    }
-            //}
-
-            //// Check diagonals
-            //if (_gameBoard[0, 0, 0] == _gameBoard[1, 1, 0] && _gameBoard[1, 1, 0] == _gameBoard[2, 2, 0])
-            //{
-            //    return _players.FirstOrDefault(p => p.Symbol == _gameBoard[0, 0, 0]);
-            //}
-            //if (_gameBoard[0, 2, 0] == _gameBoard[1, 1, 0] && _gameBoard[1, 1, 0] == _gameBoard[2, 0, 0])
-            //{
-            //    return _players.FirstOrDefault(p => p.Symbol == _gameBoard[0, 2, 0]);
-            //}
-
             return null;
         }
     
